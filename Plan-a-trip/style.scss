@@ -1,0 +1,217 @@
+.parent-container {
+    font-family: Product Sans;
+    header {
+        height: 75px;
+        background-image: linear-gradient(to right, #000 , #133357);
+        color: white;
+        text-align: center;
+        .banner_text1,
+        .banner_text2 {
+            padding-top: 15px;
+            margin: 0;
+        }
+        .banner_text2 {
+            font-size: 17px;
+            padding-top: 5px;
+        }
+    }
+    nav {
+        text-align: right;
+        margin: 20px 50px 0 0;
+        a {
+            text-decoration: none;
+            margin-right: 50px;
+            color: inherit;
+            font-size: 20px;
+        }
+    }
+    #welcome {
+        margin: 7% 15% 0 15%;
+        .content-left {
+            float: left;
+            width: 50%;
+            img {
+                width: 400px;
+            }
+        }
+        .content-right {
+            float: right;
+            width: 50%;
+            margin-top: 40px;
+            .welcome-header {
+                font-size: 3em;
+                margin-bottom: 0;
+            }
+            p {
+                font-size: 20px;
+                color: #34363f;
+            }
+        }
+    }
+    #weather {
+        margin: 2% 8% 2% 8%;
+        clear: both;
+        padding-top: 40px;
+        .weather-header {
+            background: #153256;
+            height: 60px;
+            color: white;
+            line-height: 3;
+            font-size: 22px;
+            padding-left: 25px;
+        }        
+        .weather-list {
+            display: flex;
+            .city-info {
+                height: 220px;
+                width: 25%;
+                color: white;
+                text-align: center;
+            }
+            .city-name {
+                font-size: 22px;
+                margin-bottom: 15px;
+            }
+            .weather-icon {
+                margin: 0;
+                img {
+                    width: 50px;
+                }
+            }
+            .city-temp {
+                font-size: 5em;
+                margin: 0;
+            }
+            .city1 {
+                background-color: #0D7E88;
+            }
+            .city2 {
+                background-color: #D09378;
+            }
+            .city3 {
+                background-color: #405B5D;
+            }
+            .city4 {
+                background-color: #74A748;
+            }          
+        }
+    }
+    #destinations {
+        margin: 2% 8% 2% 8%;
+        .dest-city-info {
+            display: inline-block;
+            padding-right: 20px;
+        }
+        .dest-info {
+            width: 210px;
+            height: 210px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: bottom;            
+        }
+        .destination-header {
+            color: #153256;
+            font-size: 31px;
+            font-weight: bold;
+        }
+        .destination-cities {
+            margin-top: 25px;
+            width: 1400px;
+        }
+        .dest-city {
+            color: #aaaaaa;
+        }
+    }
+    #promo-content {
+        position: relative;
+        .promo-header {
+            font-size: 3.5em;
+            letter-spacing: 5px;
+            margin: 0 0 10px 0;
+        }
+        img {
+            max-width: 100%;
+        }
+        .promo-content {
+            position: absolute;
+            bottom: 80px;
+            color: white;
+            margin-left: 100px;
+            p {
+                font-size: 30px;
+                font-weight: bold;
+                letter-spacing: 4px;
+                margin: 0;
+            }
+        }
+    }
+    #quote {
+        text-align: center;
+        margin: 40px 0;
+        .quote-header {
+            color: #153256;
+        }
+        .quote-form {
+            color: #aaaaaa;
+            width: 500px;
+            display: inline-block;
+            input {
+                width: 100%;
+                height: 40px;
+                border: 1px solid #aaaaaa;
+                border-radius: 3px;
+                &.error {
+                    border: 1px solid red;
+                }
+            }
+            label {
+                display: inherit;
+                text-align: left;
+                margin: 20px 0 10px 0;
+                font-size: 14px;
+            }
+            button {
+                padding: 12px 50px;
+                margin-top: 25px;
+            }
+        }
+    }
+    footer {
+        height: 270px;
+        background-image: linear-gradient(to right, #000 , #133357);
+        color: white;
+        font-size: 18px;
+        .footer-menu {
+            display: inline-block;
+            margin: 30px 0 0 120px;
+            .footer-list {
+                list-style: none;
+                padding: 0;
+                li {
+                    padding: 6px 0;
+                }
+            }
+            .footer-head {
+                font-size: 22px;
+                margin-bottom: 0;
+            }
+            &.disclaimer {
+                vertical-align: top;
+            }
+        }
+    }
+    button {
+        color: white;
+        background-image: linear-gradient(to right, #000 , #133357);
+        outline: none;
+        border: none;
+        font-size: 18px;
+        padding: 10px 25px;
+        border-radius: 4px;
+        margin-top: 10px;
+        cursor: pointer;
+    }    
+}
+body {
+    margin: 0;
+}

@@ -1,0 +1,272 @@
+.parent-container {
+  font-family: Product Sans;
+}
+
+.parent-container header {
+  height: 75px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#000), to(#133357));
+  background-image: linear-gradient(to right, #000, #133357);
+  color: white;
+  text-align: center;
+}
+
+.parent-container header .banner_text1,
+.parent-container header .banner_text2 {
+  padding-top: 15px;
+  margin: 0;
+}
+
+.parent-container header .banner_text2 {
+  font-size: 17px;
+  padding-top: 5px;
+}
+
+.parent-container nav {
+  text-align: right;
+  margin: 20px 50px 0 0;
+}
+
+.parent-container nav a {
+  text-decoration: none;
+  margin-right: 50px;
+  color: inherit;
+  font-size: 20px;
+}
+
+.parent-container #welcome {
+  margin: 7% 15% 0 15%;
+}
+
+.parent-container #welcome .content-left {
+  float: left;
+  width: 50%;
+}
+
+.parent-container #welcome .content-left img {
+  width: 400px;
+}
+
+.parent-container #welcome .content-right {
+  float: right;
+  width: 50%;
+  margin-top: 40px;
+}
+
+.parent-container #welcome .content-right .welcome-header {
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+.parent-container #welcome .content-right p {
+  font-size: 20px;
+  color: #34363f;
+}
+
+.parent-container #weather {
+  margin: 2% 8% 2% 8%;
+  clear: both;
+  padding-top: 40px;
+}
+
+.parent-container #weather .weather-header {
+  background: #153256;
+  height: 60px;
+  color: white;
+  line-height: 3;
+  font-size: 22px;
+  padding-left: 25px;
+}
+
+.parent-container #weather .weather-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.parent-container #weather .weather-list .city-info {
+  height: 220px;
+  width: 25%;
+  color: white;
+  text-align: center;
+}
+
+.parent-container #weather .weather-list .city-name {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.parent-container #weather .weather-list .weather-icon {
+  margin: 0;
+}
+
+.parent-container #weather .weather-list .weather-icon img {
+  width: 50px;
+}
+
+.parent-container #weather .weather-list .city-temp {
+  font-size: 5em;
+  margin: 0;
+}
+
+.parent-container #weather .weather-list .city1 {
+  background-color: #0D7E88;
+}
+
+.parent-container #weather .weather-list .city2 {
+  background-color: #D09378;
+}
+
+.parent-container #weather .weather-list .city3 {
+  background-color: #405B5D;
+}
+
+.parent-container #weather .weather-list .city4 {
+  background-color: #74A748;
+}
+
+.parent-container #destinations {
+  margin: 2% 8% 2% 8%;
+}
+
+.parent-container #destinations .dest-city-info {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.parent-container #destinations .dest-info {
+  width: 210px;
+  height: 210px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.parent-container #destinations .destination-header {
+  color: #153256;
+  font-size: 31px;
+  font-weight: bold;
+}
+
+.parent-container #destinations .destination-cities {
+  margin-top: 25px;
+  width: 1400px;
+}
+
+.parent-container #destinations .dest-city {
+  color: #aaaaaa;
+}
+
+.parent-container #promo-content {
+  position: relative;
+}
+
+.parent-container #promo-content .promo-header {
+  font-size: 3.5em;
+  letter-spacing: 5px;
+  margin: 0 0 10px 0;
+}
+
+.parent-container #promo-content img {
+  max-width: 100%;
+}
+
+.parent-container #promo-content .promo-content {
+  position: absolute;
+  bottom: 80px;
+  color: white;
+  margin-left: 100px;
+}
+
+.parent-container #promo-content .promo-content p {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  margin: 0;
+}
+
+.parent-container #quote {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.parent-container #quote .quote-header {
+  color: #153256;
+}
+
+.parent-container #quote .quote-form {
+  color: #aaaaaa;
+  width: 500px;
+  display: inline-block;
+}
+
+.parent-container #quote .quote-form input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #aaaaaa;
+  border-radius: 3px;
+}
+
+.parent-container #quote .quote-form input.error {
+  border: 1px solid red;
+}
+
+.parent-container #quote .quote-form label {
+  display: inherit;
+  text-align: left;
+  margin: 20px 0 10px 0;
+  font-size: 14px;
+}
+
+.parent-container #quote .quote-form button {
+  padding: 12px 50px;
+  margin-top: 25px;
+}
+
+.parent-container footer {
+  height: 270px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#000), to(#133357));
+  background-image: linear-gradient(to right, #000, #133357);
+  color: white;
+  font-size: 18px;
+}
+
+.parent-container footer .footer-menu {
+  display: inline-block;
+  margin: 30px 0 0 120px;
+}
+
+.parent-container footer .footer-menu .footer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.parent-container footer .footer-menu .footer-list li {
+  padding: 6px 0;
+}
+
+.parent-container footer .footer-menu .footer-head {
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+.parent-container footer .footer-menu.disclaimer {
+  vertical-align: top;
+}
+
+.parent-container button {
+  color: white;
+  background-image: -webkit-gradient(linear, left top, right top, from(#000), to(#133357));
+  background-image: linear-gradient(to right, #000, #133357);
+  outline: none;
+  border: none;
+  font-size: 18px;
+  padding: 10px 25px;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */
